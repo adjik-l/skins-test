@@ -233,8 +233,9 @@ src/skins/1080/PLi-FullHD/buttons/Makefile
 src/skins/1080/PLi-FullHD/dvr/Makefile
 src/skins/1080/PLi-FullHD/epg/Makefile
 src/skins/1080/PLi-FullHD/extensions/Makefile
-src/skins/1080/PLi-FullHD/fonts/Makefile
+src/skins/1080/PLi-FullHD/logos/Makefile
 src/skins/1080/PLi-FullHD/icons/Makefile
+src/skins/1080/PLi-FullHD/icons/pvr/Makefile
 src/skins/1080/PLi-FullHD/infobar/Makefile
 src/skins/1080/PLi-FullHD/window/Makefile
 
@@ -244,8 +245,8 @@ src/skins/1080/PLi-FullNightHD/buttons/Makefile
 src/skins/1080/PLi-FullNightHD/dvr/Makefile
 src/skins/1080/PLi-FullNightHD/epg/Makefile
 src/skins/1080/PLi-FullNightHD/extensions/Makefile
-src/skins/1080/PLi-FullNightHD/fonts/Makefile
 src/skins/1080/PLi-FullNightHD/icons/Makefile
+src/skins/1080/PLi-FullNightHD/icons/pvr/Makefile
 src/skins/1080/PLi-FullNightHD/infobar/Makefile
 src/skins/1080/PLi-FullNightHD/window/Makefile
 
