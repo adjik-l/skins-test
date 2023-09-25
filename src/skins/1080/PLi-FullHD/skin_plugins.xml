@@ -837,7 +837,7 @@
 
 	<!-- CSSF plugin -->
 
-	<screen name="CSFD" position="fill" title="Filmová databáze CSFD" flags="wfNoBorder">
+	<screen name="CSFD" position="fill" title="FilmovГЎ databГЎze CSFD" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
 		<panel name="KeyMenuInfoTemplate"/>
 		<ePixmap pixmap="buttons/key_text.png" position="30,1032" size="52,38" zPosition="3" alphatest="on"/>
@@ -884,17 +884,17 @@
 		<widget name="label8" position="780,357" size="1110,36" font="Regular;30" valign="center"/>
 	</screen>
 
-	<screen name="CSFDVirtualKeyBoard" position="fill" title="Virtuální klávesnice pro CSFD" flags="wfNoBorder">
+	<screen name="CSFDVirtualKeyBoard" position="fill" title="VirtuГЎlnГ­ klГЎvesnice pro CSFD" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
 		<panel name="ButtonYellow"/>
 		<widget name="header" position="780,105" size="1110,45" font="Regular;36" transparent="1" noWrap="1" halign="left"/>
 		<widget name="text" position="780,180" size="945,69" font="Regular;39" transparent="1" noWrap="1" halign="right"/>
 		<widget name="list" position="915,285" size="840,337" selectionDisabled="1" transparent="1" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/CSFD/icons/selected-menu.png"/>
 		<widget name="countryFlag" position="1042,930" size="90,60" backgroundColor="#31000000" alphatest="on"/>
-		<eLabel text="Změna jazyka" position="1117,1030" size="345,37" font="Regular;36" backgroundColor="#31000000" transparent="1"/>
+		<eLabel text="ZmД›na jazyka" position="1117,1030" size="345,37" font="Regular;36" backgroundColor="#31000000" transparent="1"/>
 	</screen>
 
-	<screen name="CSFDSetupFullHD" position="fill" title="CSFD - Nastavení" flags="wfNoBorder">
+	<screen name="CSFDSetupFullHD" position="fill" title="CSFD - NastavenГ­" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
 		<panel name="KeyMenuInfoTemplate"/>
 		<widget name="config" position="780,137" size="1110,836" font="Regular;28" itemHeight="38" scrollbarMode="showOnDemand"/>
@@ -905,7 +905,7 @@
 		<widget name="config2" position="1099,100" size="162,33" valign="center" transparent="1" zPosition="2" halign="center" font="Regular;27"/>
 	</screen>
 
-	<screen name="CSFDHistoryFullHD" position="fill" title="Historie změn v pluginu CSFD">
+	<screen name="CSFDHistoryFullHD" position="fill" title="Historie zmД›n v pluginu CSFD">
 		<panel name="PigTemplate"/>
 		<panel name="OKTemplate"/>
 		<widget name="text" position="780,100" size="1110,912" zPosition="3" scrollbarMode="showOnDemand" transparent="1"/>
