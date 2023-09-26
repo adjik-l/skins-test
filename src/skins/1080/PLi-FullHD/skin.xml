@@ -1198,6 +1198,21 @@
 		<widget name="checkList" position="780,100" size="1110,912" itemHeight="38" font="Regular;28" backgroundColor="background" zPosition="3" transparent="1" scrollbarMode="showOnDemand"/>
 	</screen>
 
+	<!-- Ipkg installer -->
+
+	<screen name="IpkgInstaller" position="fill" flags="wfNoBorder">
+		<panel name="PigTemplate"/>
+		<widget name="list" position="780,100" size="1110,798" itemHeight="38" font="Regular;28" backgroundColor="background" zPosition="3" transparent="1" scrollbarMode="showOnDemand"/>
+		<widget source="introduction" render="Label" position="780,975" size="1110,37" backgroundColor="background" zPosition="1" transparent="1" foregroundColor="white" font="Regular;33" halign="center"/>
+	</screen>
+
+	<screen name="Ipkg" title="Installing Software" position="fill" flags="wfNoBorder">
+		<panel name="PigTemplate"/>
+		<widget name="package" position="780,110" size="1110,35" backgroundColor="darkgrey" transparent="1" font="Regular;32"/>
+		<widget name="status" position="780,163" size="1110,70" backgroundColor="darkgrey" transparent="1" font="Regular;32"/>
+		<panel name="SliderTemplate"/>
+	</screen>
+
 	<!-- Opkg installer -->
 
 	<screen name="OpkgInstaller" position="fill" flags="wfNoBorder">
